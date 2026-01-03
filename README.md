@@ -1,6 +1,6 @@
 # 📊 Analyse des Médias Sociaux - Power BI
 
-![Aperçu du Tableau de Bord](assets/Screenshot 2026-01-01 015956.png)
+![Aperçu du Tableau de Bord](assets/Screenshot.png)
 
 ## 📝 Description du Projet
 Ce projet consiste en la conception et la réalisation d'un tableau de bord interactif sous **Power BI** pour l'analyse des performances sur les réseaux sociaux.
