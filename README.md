@@ -1,52 +1,143 @@
-# 📊 Analyse des Médias Sociaux - Power BI
+# Social Media Analysis Dashboard
 
-![Aperçu du Tableau de Bord](assets/Screenshot.png)
-
-## 📝 Description du Projet
-Ce projet consiste en la conception et la réalisation d'un tableau de bord interactif sous **Power BI** pour l'analyse des performances sur les réseaux sociaux.
-
-L'objectif est de transformer des données brutes en "insights" visuels pour comprendre l'engagement des utilisateurs, les tendances de sentiments et la perception de la marque.
-
-### 🔍 Fonctionnalités Clés
-* **Analyse de l'Engagement :** Suivi des métriques clés (Likes, Partages, Commentaires).
-* **Analyse des Sentiments :** Visualisation de la répartition des sentiments (Positif, Négatif, Neutre).
-* **Tendances Temporelles :** Évolution de l'activité et des interactions au fil du temps.
-* **Filtres Dynamiques :** Exploration des données par catégorie, date ou plateforme.
-
----
-
-## 📂 Structure du Dépôt
-* `Dashboard Social Media Analysis.pbix` : Le fichier source Power BI (contient le rapport et le modèle de données).
-* `Rapport_mini_Projet_Power_BI.pdf` : Rapport détaillé expliquant la méthodologie, l'ETL et les choix de visualisation.
-* `Data/` : Dossier contenant les sources de données (si applicable).
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Objectives](#objectives)
+3. [Dataset Description](#dataset-description)
+4. [Technologies Used](#technologies-used)
+5. [Data Analysis & Visualization](#data-analysis--visualization)
+6. [Dashboard Design](#dashboard-design)
+7. [Repository Structure](#repository-structure)
+8. [Key Insights](#key-insights)
+9. [Conclusion](#conclusion)
+10. [Contacts](#contacts)
 
 ---
 
-## 🛠️ Outils & Technologies
-* **Microsoft Power BI** (Visualisation & DAX)
-* **Power Query** (Nettoyage et transformation des données ETL)
-* **Kaggle** (Source du dataset : *Social Media Engagement Data*)
+## Project Overview
+
+This project focuses on the analysis of social media engagement data through an interactive Power BI dashboard.  
+The goal is to help better understand user interactions, brand perception, and platform performance across multiple social media channels such as Facebook, Twitter, Instagram, and LinkedIn.
+
+The project was developed as part of an academic mini-project in data analysis and visualization.
 
 ---
 
-## 👥 Crédits & Contexte Académique
-Ce projet a été réalisé dans le cadre d'un Mini-Projet universitaire (Master/Licence).
+## Objectives
 
-**Réalisé par :**
-* Mohamed BOUKECHOUCH
-* Mohammed KARRAJI
+The main objectives of this project are to:
 
-**Encadré par :**
-* Pr. Mourad Fariss
-
-**Établissement :**
-* Université Abdelmalek Essaâdi
-* Faculté des Sciences et Techniques d'Al-Hoceima
-* Département d'Informatique (2024-2025)
+- Analyze user engagement metrics (likes, comments, shares)
+- Track brand mentions and sentiment trends
+- Compare performance across different social media platforms
+- Identify the most engaging content types and optimal posting times
+- Provide decision-support insights through interactive dashboards
 
 ---
 
-## 🚀 Comment visualiser ce rapport ?
-1.  Téléchargez le fichier `.pbix` de ce dépôt.
-2.  Ouvrez-le avec **Power BI Desktop** (gratuit).
-3.  Interagissez avec les graphiques pour explorer les données.
+## Dataset Description
+
+The dataset used in this project was obtained from **Kaggle** and contains social media engagement data, including:
+
+- Platform information (Facebook, Twitter, Instagram, LinkedIn)
+- User interaction metrics (likes, comments, shares)
+- Brand mentions
+- Sentiment analysis (positive, negative, neutral)
+- Content types and posting periods
+
+The data is provided in CSV format and was prepared before being loaded into Power BI.
+
+---
+
+## Technologies Used
+
+Based on the project implementation and report:
+
+- **Power BI** – Data visualization and interactive dashboard design
+- **Python (Pandas, NumPy)** – Data cleaning and preprocessing
+- **CSV datasets** – Data source
+- **Git & GitHub** – Version control and project sharing
+
+---
+
+## Data Analysis & Visualization
+
+The analysis focuses on several key aspects:
+
+- **Global engagement analysis**  
+  Evaluation of likes, comments, and shares to measure overall engagement.
+
+- **Brand mentions & sentiment analysis**  
+  Monitoring brand perception by analyzing sentiment trends across platforms.
+
+- **Platform performance comparison**  
+  Identifying which social networks generate the highest engagement.
+
+- **Content & time analysis**  
+  Detecting the most engaging post types and the most active time periods.
+
+All results are presented using dynamic and interactive visualizations in Power BI.
+
+---
+
+## Dashboard Design
+
+The Power BI dashboard includes:
+
+- KPI indicators for engagement metrics
+- Interactive filters (platform, sentiment, time period)
+- Charts for engagement trends and comparisons
+- Visual analysis of content performance and audience activity
+
+
+![Dashboard Preview](assets/Screenshot.png)
+
+
+## Repository Structure
+
+```plaintext
+Dashboard-Social-Media-Analysis
+│   README.md
+│
+├── data
+│   └── social_media_data.csv
+│
+├── powerbi
+│   └── Social_Media_Dashboard.pbix
+│
+├── assets
+│   └── dashboard.png
+│
+└── report
+    └── Rapport_mini_Projet_Power_BI.pdf
+```
+
+---
+
+## Key Insights
+
+* Certain platforms generate significantly higher engagement than others
+* Video and visual content tend to attract more interactions
+* Engagement varies depending on posting time and audience activity
+* Sentiment analysis helps identify strengths and weaknesses in brand perception
+
+---
+
+## Conclusion
+
+This project demonstrates how social media data can be effectively analyzed and visualized to support digital strategy decisions.
+Through Power BI dashboards, complex datasets are transformed into clear, actionable insights that help optimize engagement and communication strategies.
+
+---
+
+## Contacts
+
+For any questions or collaboration opportunities:
+
+* **Name**: Mohamed Boukechouch
+* **GitHub**: [https://github.com/medboukechouch](https://github.com/medboukechouch)
+* **LinkedIn**: [https://www.linkedin.com/in/mohamed-boukechouch/](https://www.linkedin.com/in/mohamed-boukechouch/)
+* **Mail**: `med.boukechouch@gmail.com`
+
+
+
