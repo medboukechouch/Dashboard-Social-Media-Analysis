@@ -19,7 +19,6 @@
 This project focuses on the analysis of social media engagement data through an interactive Power BI dashboard.  
 The goal is to help better understand user interactions, brand perception, and platform performance across multiple social media channels such as Facebook, Twitter, Instagram, and LinkedIn.
 
-The project was developed as part of an academic mini-project in data analysis and visualization.
 
 ---
 
